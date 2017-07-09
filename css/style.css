@@ -1,0 +1,154 @@
+/*body*/
+body{
+	/*background-image :url("back1.jpg");*/
+	/*background-repeat: repeat;*/
+	font-family: Optima, Segoe, "Segoe UI", Candara, Calibri, Arial, sans-serif;
+	/*background-color: black;*/
+}
+
+header,h1{
+	background-color: brown;
+	color: whitesmoke;
+	font-family: sans-serif;
+}
+
+h2{
+	color: skyblue;
+	font-size: 22px;
+}
+
+/*container*/
+.container{
+	background-color: black;
+	/*min-width: 600px;*/
+	width: 80%;
+	margin: auto;
+	border-radius: 25px;
+	box-shadow:0px 14px 48px black;
+}
+/*navigation bar*/
+nav{
+	padding: 0 auto;
+}
+
+.banner{ 
+	border:1px solid #c00;
+	border-width:1px 0;
+	list-style:none;
+	margin:0;
+	background-color: #666; 
+	text-align:center;
+}
+.banner nav{
+		height:30px;
+	}
+.banner nav ul {
+	margin: auto;
+}
+.banner nav li{
+	margin:0 auto;
+	display:inline;
+}
+.banner nav ul li a:link , .banner nav a:visited{
+	color:#FFF;
+	display:inline-block;
+	padding: 5px 25px;
+	height:20px;
+}
+
+
+a{
+	text-decoration: none;	
+}
+
+/*slideshow*/
+
+/*box*/
+.box,.aca,.but, .asbis,.res{
+
+	background-color: brown;
+	overflow: hidden;
+}
+/*downbox*/
+/*.midbox{
+	background-color: whitesmoke;
+}*/
+.downbox{
+	width:90%;
+	/*color:white;*/
+	overflow: hidden;
+}
+.abt{
+	/*transform:rotate3d(1,1,1,-7deg);rgb(231, 231, 231)*/
+	margin-left: 25px;
+	overflow: hidden;
+	color:black;
+	position: inherit;
+	width: 30%;
+	float: left;
+	background-color: #DEB887 ;
+	border-radius: 0px 0px 5px -1px;
+	list-style: none;
+	box-shadow:0px 0px 5px black;
+}
+.pris{
+	/*transform:rotate3d(1,1,1,-7deg);*/
+	margin-left: 25px;
+	overflow: hidden;
+	color:black;
+	position: inherit;
+	width: 30%;
+	float: left;
+	background-color: #DEB887;
+	border-radius: 0px 0px 5px -1px;
+	list-style: none;
+	box-shadow:0px 0px 5px black;
+}
+.not{
+	/*transform:rotate3d(1,1,1,-7deg);*/
+	margin-left: 25px;
+	overflow: hidden;
+	color:black;
+	position: inherit;
+	width: 30%;
+	height: 262px;
+	float: left;
+	background-color: #DEB887;
+	border-radius: 0px 0px 5px -1px;
+	list-style: none;
+	box-shadow:0px 0px 5px black;
+}
+.tail{
+	text-align: center;
+	color: white;
+	font-size: 12px;
+	background-color: black;
+}
+.side{
+	margin-top: 0;
+	margin-left: 90px;
+	float: left;
+}
+.tab{
+ 	background-color: #DEB887;
+ 	/*background-color: skyblue;*/
+ 	color: black;
+ 	padding: 15px;
+ 	border: 1px solid navy;
+ 	border-style: ;
+ 	border-collapse: collapse;
+ }
+ .bakso{
+ 	background-color: black;
+ 	width: 30%;
+ 	margin-bottom: 5px;
+ 	margin-top: 5px;
+ 	height: 50%;
+ 	float: right;
+ }
+ .bakso2{
+ 	background-color: gray;
+ 	width: 30%;
+ 	margin-top: 5px;
+ 	margin-bottom: 5px;
+ }

@@ -1,0 +1,41 @@
+
+body{
+	padding-top: 100px;
+	width: 60%;
+	margin: 0 auto;
+}
+.slider{
+	background-color: #ffffff;
+	position: relative;
+	border-top: 3px solid #CDCDCD;
+
+}
+.left_arrow{
+	display: block;	
+	background: url("../img/left_arrow.png") no-repeat;
+	position: absolute;
+	left: -2%; top: 50%;
+	height: 53px; width: 53px;
+}
+.right_arrow{
+	display: block;
+	height: 53px;
+	background: url("../img/right_arrow.png") no-repeat;
+	position: absolute;
+	right: -2%; top: 50%;
+	height: 53px; width: 53px;		
+}
+
+
+
+/* Actual Slide Show begins here*/
+.active{
+	display: inline;
+	width: 400px; width: 400px;
+}
+.inactive{
+	display: none;
+}
+
+
+
